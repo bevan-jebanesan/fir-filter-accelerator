@@ -1,0 +1,29 @@
+
+Processes/Blocks in Design
+  Process          Real Operation(s) count Latency Throughput Reset Length II Comments 
+  ---------------- ----------------------- ------- ---------- ------------ -- --------
+  /Accelerator/run                    1094      18         16            1  0          
+  Design Total:                       1094      18         16            1  2          
+  
+Bill Of Materials (Datapath)
+  mgc_or(1,6,4)                        2.644               0.000    0.000 0.132          0          15 
+  mgc_reg_pos(1,1,0,0,0,0,0,1)         5.320               0.000    5.320 0.122          0          11 
+  mgc_reg_pos(1,1,0,0,0,1,1,1)         5.320               0.000    5.320 0.122          0          44 
+  mgc_reg_pos(16,1,0,0,0,1,1,1)       85.120               0.000   85.120 0.122          0          92 
+  mgc_reg_pos(2,1,0,0,0,1,1,1)        10.640               0.000   10.640 0.122          0          10 
+  mgc_reg_pos(64,1,0,0,0,1,1,1)      340.480               0.000  340.480 0.122          0           2 
+  mgc_reg_pos(8,1,0,0,0,1,1,1)        42.560               0.000   42.560 0.122          0           7 
+                                                                                                       
+  TOTAL AREA (After Assignment):   48798.289           40533.000 9209.000                              
+  
+Area Scores
+                     Post-Scheduling    Post-DP & FSM  Post-Assignment 
+  ----------------- ---------------- ---------------- ----------------
+  Total Area Score:   41085.9          95092.2          48814.8        
+  Total Reg:           8719.5  (21%)    9224.9  (10%)    9224.9  (19%) 
+                                                                       
+  Critical Path
+    Max Delay:  4.805054000000001
+    Slack:      0.19494599999999895
+    
+    Path                                                                                                                                                               Startpoint                                                                                                                                                       Endpoint                                                Delay  Slack                       

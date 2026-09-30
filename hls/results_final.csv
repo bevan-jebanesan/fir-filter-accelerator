@@ -1,0 +1,2 @@
+date__begin,date__end,module_name,clk_per,realops,latency,throughput,critpath,area_mux,area_func,area_logic,area_buffer,area_mem,area_rom,area_reg,area_fsm_reg,area_fsm_comb
+1764969515,1764969594,Accelerator,5,1094,18,16,4.805054000000001,10627.9,26684.1,2277.4,0.0,0.0,0.0,9208.9,16.0,16.0
